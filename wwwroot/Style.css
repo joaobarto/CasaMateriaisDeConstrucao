@@ -1,0 +1,36 @@
+
+.navbar {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: rgb(255, 255, 255);
+    text-emphasis-color: white !important;
+}
+
+
+.navbar .navbar-brand {
+    text-align: center; 
+    width: 100%; 
+}
+
+
+.navbar .navbar-nav {
+    display: flex;
+    
+    align-items: center; 
+    margin-top: 15px; 
+}
+
+
+.navbar .nav-link {
+    padding: 10px 15px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18pt;
+}
+
+.navbar-toggler {
+    margin-top: 20px; 
+}
+.main{
+    background-color: gray !important;
+}
